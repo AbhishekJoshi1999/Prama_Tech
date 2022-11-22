@@ -1,7 +1,33 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import "../../App.css";
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_42en1yn', 'template_mjg099p', form.current, 'TT0GSmwt9-mSCtItO')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
+  <form ref={form} onSubmit={sendEmail}>
+  <label>Name</label>
+  <input type="text" name="user_name" />
+  <label>Mobile No</label>
+  <input type="text" name="user_number"/>
+  <label>Email</label>
+  <input type="email" name="user_email" />
+  <label>Message</label>
+  <textarea name="message" />
+  <input type="submit" value="Send" />
+</form>
   
   
     const [data,setUser]=useState({
