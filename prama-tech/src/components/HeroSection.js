@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Button } from './Button';
+// import { Button } from './Button';
 import './css/HeroSection.css';
 
 function HeroSection() {

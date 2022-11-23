@@ -20,13 +20,13 @@ function Navbar() {
                 <a href="/">Home</a>
               </li>
               <li>
-                <a href="about">About</a>
+                <a href="about">About Us</a>
               </li>
               <li>
-                <a href="contact_us">Contact</a>
+                <a href="services">Our Services</a>
               </li>
               <li>
-                <a href="services">Services</a>
+                <a href="contact_us">Contact Us</a>
               </li>
             </ul>
           </div>
