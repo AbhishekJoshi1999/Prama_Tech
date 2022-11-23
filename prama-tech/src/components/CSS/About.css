@@ -1,0 +1,19 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: solid;
+   
+    
+}
+.aboutContent {
+    margin-left: -20%;
+    margin-right: 120%;
+    color: rgb(166, 206, 206);
+    text-align: justify;    
+    font-weight: bold;
+    text-shadow: opx 2px 4px #d3d1da;
+}
+.parag{
+    text-align:left;
+    margin: 0%;
+}

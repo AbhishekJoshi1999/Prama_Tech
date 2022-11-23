@@ -33,9 +33,9 @@ export default function Contact() {
 
   return (
     <Container>
-      <Row className="mb-5 mt-3">
-        <Col lg="8">
-          <h1 className="display-4 mb-4">Contact Us</h1>
+      <Row className="mb-8 mt-3">
+        <Col lg="11">
+          <h1 className="display-5 mb-4">Contact Us</h1>
           <hr className="t_border my-4 ml-0 text-left" />
         </Col>
       </Row>
@@ -81,18 +81,7 @@ export default function Contact() {
               </Row>
                 
               <Row>
-              {/* <Col lg="6" className="form-group">
-                <input
-                  className="form-control rounded-0"
-                  id="mobile"
-                  name="user_number"
-                  value={this.state.inputvalue}
-                  onChange={this.txtNum.bind(this)}
-                  placeholder="Enter Only Mobile Number"
-                  type="text"
-                  required
-                />
-              </Col> */}
+              
               <Numbers />
               </Row>
               <Row>

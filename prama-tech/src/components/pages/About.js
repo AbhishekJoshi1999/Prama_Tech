@@ -1,6 +1,16 @@
-import React from "react";
-import '../css/App.css';
+import React, { Fragment } from "react";
+// import '../css/App.css';
+import Content from '../Content'
+import '../css/About.css'
 
-export default function About() {
-    return <h1 className="aboutus">ABOUT US</h1>;
+const About = () => {
+    return (
+    <>
+    <div className="about">
+    <Content  />
+    </div>
+ 
+    </>
+    )
 }
+export default About;

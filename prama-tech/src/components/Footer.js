@@ -5,7 +5,7 @@ export default function Footer () {
     <>
         <footer className='w-100 bg-light text-center'>
         <p>
-              &copy; {new Date().getFullYear()} Prama Technology . All Rights Reserved | Terms and Conditions
+              &copy; {new Date().getFullYear()} Prama Technology Pvt. Ltd. | All Rights Reserved | Terms and Conditions
             </p>
         </footer>
     </>

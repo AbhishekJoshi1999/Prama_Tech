@@ -20,7 +20,7 @@ function Navbar() {
                 <a href="/">Home</a>
               </li>
               <li>
-                <a href="about">About Us</a>
+                <a href="about_us">About Us</a>
               </li>
               <li>
                 <a href="services">Our Services</a>
