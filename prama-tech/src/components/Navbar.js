@@ -1,45 +1,55 @@
-import React, { useState, useEffect } from "react";
-// import { Button } from './Button';
-import { Link } from "react-router-dom";
-import "./css/Navbar.css";
+// import React, { useState, useRef, useEffect } from "react";
+import { FaLinkedin, FaFacebookF, FaTwitter } from "react-icons/fa";
+// import { social } from "./data";
+import './css/Navbar.css'
+// import logo from "../prama_logo.jpg";
 
 function Navbar() {
-  return(
-      <>
-  <nav className="navbar navbar-expand-lg navbar-light bg-light">
-  <div className="container-fluid">
-    <a className="navbar-brand" href="#">PRAMA TECHNOLOGY</a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="/">Home</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="about_us">About Us</a>
-        </li>
-        <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="services" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Services
-          </a>
-          <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a className="dropdown-item" href="#">Web Development</a></li>
-            <li><a className="dropdown-item" href="#">Digital Marketing</a></li>
-            <li><a className="dropdown-item" href="#">Sales and Maintainence</a></li>
-          
+  return (
+    <>
+      <nav>
+        <div className="nav-center">
+          <div className="nav-header">
+            {/* <img src={logo} alt="logo" /> */}
+            <button className="nav-toggle">{/* <FaTwitter /> */}</button>
+          </div>
+
+          <div className="links-container show-container">
+            <ul className="links">
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="about">About</a>
+              </li>
+              <li>
+                <a href="contact_us">Contact</a>
+              </li>
+              <li>
+                <a href="services">Services</a>
+              </li>
+            </ul>
+          </div>
+
+          <ul className="social-icons">
+            <li>
+              <a href="https://www.facebook.com">
+                <FaFacebookF />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com">
+                <FaLinkedin />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com">
+                <FaTwitter />
+              </a>
+            </li>
           </ul>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="contact_us">Contact Us</a>
-        </li>
-        
-      </ul>
-      
-    </div>
-  </div>
-</nav>
+        </div>
+      </nav>
     </>
   );
 }

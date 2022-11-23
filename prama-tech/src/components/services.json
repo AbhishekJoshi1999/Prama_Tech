@@ -1,0 +1,39 @@
+[
+    {
+        "id":1,
+        "title":"Website Designing",
+        "descripion":"We develop responsive website for our client."
+
+},
+   {
+        "id":2,
+        "title":"Digital Marketing",
+        "descripion":"We help our client to get traffic in thier website."
+
+},
+   {
+        "id":3,
+        "title":"Sales and Marketing",
+        "descripion":"We are also in sales of our computer,Laptops,CCTV Camer. We sale these product in bulk for wholesale costumers."
+
+},
+   {
+        "id":4,
+        "title":"Automobiles",
+        "descripion":"We are in the market of automobile as well."
+
+   }
+   ,
+   {
+        "id":5,
+        "title":"Sales and Marketing",
+        "descripion":"We are also in sales of our computer,Laptops,CCTV Camer. We sale these product in bulk for wholesale costumers."
+
+},
+   {
+        "id":6,
+        "title":"Automobiles",
+        "descripion":"We are in the market of automobile as well."
+
+   }
+]
