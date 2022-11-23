@@ -10,7 +10,7 @@ function Cards() {
       <div className="cards__wrapper">
       <ul className="cards__items">
         <CardItem 
-        src='/images/img-1.png' text='These are our works.' Label='Site' path='/service' 
+        src='/images/img-1.png' text='These are our works.' Label='Site' path='/services' 
         />
       </ul>
       </div>

@@ -1,6 +1,7 @@
-import React from "react";
+import React, { Component } from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import emailjs from "@emailjs/browser";
+import Numbers from '../Numbers'
 
 export default function Contact() {
   function sendEmail(e) {
@@ -78,17 +79,21 @@ export default function Contact() {
                 />
               </Col>
               </Row>
+                
               <Row>
-              <Col lg="6" className="form-group">
+              {/* <Col lg="6" className="form-group">
                 <input
                   className="form-control rounded-0"
                   id="mobile"
                   name="user_number"
-                  placeholder="Mobile Number"
+                  value={this.state.inputvalue}
+                  onChange={this.txtNum.bind(this)}
+                  placeholder="Enter Only Mobile Number"
                   type="text"
                   required
                 />
-              </Col>
+              </Col> */}
+              <Numbers />
               </Row>
               <Row>
               <Col lg="6" className="form-group">

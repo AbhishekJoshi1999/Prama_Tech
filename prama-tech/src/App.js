@@ -9,6 +9,7 @@ import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Services from "./components/pages/Services";
 import Contact from "./components/pages/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/contact_us" exact element={<Contact />} />
         </Routes>
       </Router>
+      <Footer />
     </>
   );
 }
