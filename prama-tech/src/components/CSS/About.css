@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0%;
     padding: 0%;
     text-decoration: solid;
@@ -16,4 +16,100 @@
 .parag{
     text-align:left;
     margin: 0%;
+} */
+
+body{
+  color: #240e0e;
+  height:48vh;
+  width: 100%;
+  background-image: url('https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-size: cover;
+  backdrop-filter: blur(20px);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  
+}
+.about {
+    min-height: 100vh;
+    width: 100vw;
+    padding: 0;
+    background: rgb(29, 24, 24);
+    color: rgba(255, 255, 255, 0.8);
+   
+  }
+  .jumbotron{
+    background-color: rgb(18, 232, 89) !important;
+    
+  }
+  .container{
+  
+    color: #ffffff;
+  }
+  .dis{
+    font-size: 30px;
+  }
+  .head{
+    font-size: 25px;
+    margin-left: 21.5%;
+  }
+  .lead,
+  .lead1{
+    color: wheat;
+    font-size: 20px;
+  }
+  .para1{
+    margin: 6%;
+    margin-top: 4%;
+    text-align: center ;
+    color: black;
+  }
+  .para2{
+    margin: 6%;
+    margin-top: -3.5%;
+    text-align: center ;
+    color: black;
+  }
+  .para3{
+    margin: 6%;
+    margin-top: -3.5%;
+    text-align: center ;
+    color: black;
+  }
+  iframe {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  iframe:last-child {
+    padding-right: 20px;
+  }
+  
+  .videos {
+    transform: translateX(-50px);
+    display: flex;
+    overflow-x: scroll;
+    width: 100vw;
+    background-color: #912a2a;
+    background-image: linear-gradient(147deg, #990000 0%, #ff0000 74%);
+  }
+  
+  .videos::-webkit-scrollbar {
+    height: 10px;
+    outline: none;
+  }
+  
+  .videos::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    background: white;
+  }
+  
+  @media (max-width: 500px) {
+    .videos::-webkit-scrollbar {
+      display: none;
+    }
+  }
+.image{
+  height: 10%;
+  
 }

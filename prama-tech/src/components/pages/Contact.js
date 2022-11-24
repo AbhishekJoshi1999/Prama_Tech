@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import emailjs from "@emailjs/browser";
 import Numbers from '../Numbers'
@@ -118,3 +118,6 @@ export default function Contact() {
     </Container>
   );
 }
+
+
+

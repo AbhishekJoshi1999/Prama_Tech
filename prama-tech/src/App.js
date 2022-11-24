@@ -9,6 +9,7 @@ import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Services from "./components/pages/Services";
 import Contact from "./components/pages/Contact";
+// import contactnext from "./components/pages/contactnext";
 import Footer from "./components/Footer";
 
 function App() {

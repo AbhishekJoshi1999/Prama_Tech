@@ -33,7 +33,7 @@ function Navbar() {
 
           <ul className="social-icons">
             <li>
-              <a href="https://www.facebook.com">
+              <a href="https://www.facebook.com/P.Tech2020">
                 <FaFacebookF />
               </a>
             </li>
