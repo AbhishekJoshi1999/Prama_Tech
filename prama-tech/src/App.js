@@ -2,15 +2,15 @@ import React from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle"
 
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "./components/css/App.css";
-import Home from "./components/pages/Home";
-import About from "./components/pages/About";
-import Services from "./components/pages/Services";
-import Contact from "./components/pages/Contact";
+import "./App.css";
+import Home from "../src/components/Home/Home";
+import About from "../src/components/About/About";
+import Services from "../src/components/Services/Services";
+import Contact from "../src/components/Contact/Contact";
 // import contactnext from "./components/pages/contactnext";
-import Footer from "./components/Footer";
+import Footer from "../src/components/Footer/Footer";
 
 function App() {
   return (
@@ -22,9 +22,12 @@ function App() {
           <Route path="/about_us" exact element={<About />} />
           <Route path="/services" exact element={<Services />} />
           <Route path="/contact_us" exact element={<Contact />} />
+         
         </Routes>
+        
       </Router>
-      <Footer />
+      <Footer className="footer"/>
+     
     </>
   );
 }
